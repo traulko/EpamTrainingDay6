@@ -64,28 +64,37 @@ public class CustomBook {
         this.publishingYear = publishingYear;
     }
 
-    // TODO: 19.07.2020
     @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        CustomBook other = (CustomBook) obj;
+        if (name != null ? !name.equals(other.name) : other.name != null) {
             return false;
         }
-        CustomBook that = (CustomBook) o;
-        return id == that.id &&
-                pagesCount == that.pagesCount &&
-                publishingYear == that.publishingYear &&
-                Objects.equals(name, that.name) &&
-                Objects.equals(authors, that.authors);
+        if (authors != null ? !authors.equals(other.authors) : other.authors != null) {
+            return false;
+        }
+        if (pagesCount != other.pagesCount) {
+            return false;
+        }
+        if (publishingYear != other.publishingYear) {
+            return false;
+        }
+        return id.equals(other.id);
     }
 
-    // TODO: 19.07.2020
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, authors, pagesCount, publishingYear);
+        int prime = 31;
+        int result = prime + (id != null ? id.hashCode() : 0);
+        result = prime * result + (name != null ? name.hashCode() : 0);
+        result = prime * result + (authors != null ? authors.hashCode() : 0);
+        result = prime * result + pagesCount;
+        result = prime * result + publishingYear;
+        return result;
     }
+
 
     @Override
     public String toString() {

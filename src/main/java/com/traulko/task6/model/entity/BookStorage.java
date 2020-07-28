@@ -44,6 +44,10 @@ public class BookStorage {
         return result;
     }
 
+    public void removeAll() {
+        books.removeAll(books);
+    }
+
     public int size() {
         return books.size();
     }

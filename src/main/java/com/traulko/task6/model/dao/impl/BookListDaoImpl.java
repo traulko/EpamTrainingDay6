@@ -2,14 +2,15 @@ package com.traulko.task6.model.dao.impl;
 
 import com.traulko.task6.exception.DaoException;
 import com.traulko.task6.model.comparator.*;
-import com.traulko.task6.model.dao.BookListDAO;
+import com.traulko.task6.model.dao.BookListDao;
 import com.traulko.task6.model.entity.BookStorage;
 import com.traulko.task6.model.entity.CustomBook;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
-public class BookListDAOImpl implements BookListDAO {
+public class BookListDaoImpl implements BookListDao {
     @Override
     public void add(CustomBook book) throws DaoException {
         if (book == null) {
@@ -31,12 +32,13 @@ public class BookListDAOImpl implements BookListDAO {
     }
 
     @Override
-    public CustomBook findById(String id) {
+    public CustomBook findById(UUID id) {
         List<CustomBook> storage = BookStorage.getInstance().getBooks();
         CustomBook neededBook = new CustomBook();
         for (CustomBook book : storage) {
             if (book.getId().equals(id)) {
                 neededBook = book;
+                break;
             }
         }
         return neededBook;

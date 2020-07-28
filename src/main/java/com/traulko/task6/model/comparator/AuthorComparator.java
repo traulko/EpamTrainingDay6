@@ -2,16 +2,13 @@ package com.traulko.task6.model.comparator;
 
 import com.traulko.task6.model.entity.CustomBook;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class AuthorComparator implements Comparator<CustomBook> {
     @Override
     public int compare(CustomBook book1, CustomBook book2) {
-        List<String> authors1 = book1.getAuthors();
-        List<String> authors2 = book2.getAuthors();
+        List<String> authors1 = new ArrayList<>(book1.getAuthors());
+        List<String> authors2 = new ArrayList<>(book2.getAuthors());
         Collections.sort(authors1);
         Collections.sort(authors2);
         Iterator<String> iterator1 = authors1.iterator();

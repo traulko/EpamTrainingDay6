@@ -8,8 +8,8 @@ import com.traulko.task6.service.BookStorageService;
 import com.traulko.task6.service.impl.BookStorageServiceImpl;
 
 import java.util.HashMap;
-import java.util.Map;
 import java.util.List;
+import java.util.Map;
 
 public class FindByNameCommandImpl implements Command {
     @Override
@@ -17,6 +17,7 @@ public class FindByNameCommandImpl implements Command {
         Map<String, Object> response = new HashMap<>();
         BookStorageService bookStorageService = new BookStorageServiceImpl();
         List<CustomBook> neededBooks = bookStorageService.findByName((String) parameters.get(ParameterType.NAME));
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         response.put(ResponseType.RESULT, neededBooks);
         return response;
     }

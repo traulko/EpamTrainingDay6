@@ -22,13 +22,13 @@ public class RemoveBookCommandImpl implements Command {
                 && parameters.containsKey(ParameterType.PUBLISHING_YEAR)) {
             String name = (String) parameters.get("name");
             String authors = (String) parameters.get("author");
-            int pagesCount = Integer.parseInt((String) parameters.get("pagesCount"));
-            int publishingYear = Integer.parseInt((String) parameters.get("publishingYear"));
+            int pagesCount = (int) parameters.get("pagesCount");
+            int publishingYear = (int) parameters.get("publishingYear");
             try {
                 bookStorageService.remove(name, authors, pagesCount, publishingYear);
-                response.put(ResponseType.RESULT, ResponseType.STATUS_SUCCESS);
+                response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
             } catch (BookStorageServiceException e) {
-                response.put(ResponseType.RESULT, ResponseType.STATUS_FAIL);
+                response.put(ResponseType.STATUS, ResponseType.STATUS_FAIL);
             }
         }
         return response;

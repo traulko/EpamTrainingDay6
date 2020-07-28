@@ -9,13 +9,15 @@ import com.traulko.task6.service.impl.BookStorageServiceImpl;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class FindByIdCommandImpl implements Command {
     @Override
     public Map<String, Object> execute(Map<String, Object> parameters) {
         Map<String, Object> response = new HashMap<>();
         BookStorageService bookStorageService = new BookStorageServiceImpl();
-        CustomBook book = bookStorageService.findById((String) parameters.get(ParameterType.ID));
+        CustomBook book = bookStorageService.findById((UUID) parameters.get(ParameterType.ID));
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         response.put(ResponseType.RESULT, book);
         return response;
     }

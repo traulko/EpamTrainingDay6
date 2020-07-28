@@ -17,6 +17,7 @@ public class FindByPagesCountCommandImpl implements Command {
         Map<String, Object> response = new HashMap<>();
         BookStorageService bookStorageService = new BookStorageServiceImpl();
         List<CustomBook> neededBooks = bookStorageService.findByPagesCount((int) parameters.get(ParameterType.PAGES_COUNT));
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         response.put(ResponseType.RESULT, neededBooks);
         return response;
     }

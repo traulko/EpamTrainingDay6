@@ -18,6 +18,7 @@ public class FindByAuthorCommandImpl implements Command {
         BookStorageService bookStorageService = new BookStorageServiceImpl();
         List<CustomBook> neededBooks = bookStorageService.findByAuthor((String) parameters.get(ParameterType.AUTHOR));
         response.put(ResponseType.RESULT, neededBooks);
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         return response;
     }
 }

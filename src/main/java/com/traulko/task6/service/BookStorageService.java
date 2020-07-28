@@ -4,13 +4,14 @@ import com.traulko.task6.exception.BookStorageServiceException;
 import com.traulko.task6.model.entity.CustomBook;
 
 import java.util.List;
+import java.util.UUID;
 
 public interface BookStorageService {
     void add(String name, String authors, int pagesCount, int publishingYear) throws BookStorageServiceException;
 
     void remove(String name, String authors, int pagesCount, int publishingYear) throws BookStorageServiceException;
 
-    CustomBook findById(String id);
+    CustomBook findById(UUID id);
 
     List<CustomBook> findByName(String name);
 

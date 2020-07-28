@@ -16,6 +16,7 @@ public class SortByPublishingYearCommandImpl implements Command {
         BookStorageService bookStorageService = new BookStorageServiceImpl();
         Map<String, Object> response = new HashMap<>();
         List<CustomBook> neededBooks = bookStorageService.sortBooksByPublishingYear();
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         response.put(ResponseType.RESULT, neededBooks);
         return response;
     }

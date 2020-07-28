@@ -20,6 +20,7 @@ public enum CommandType {
     EMPTY_COMMAND(new EmptyCommandImpl());
 
     Command command;
+
     CommandType(Command command) {
         this.command = command;
     }

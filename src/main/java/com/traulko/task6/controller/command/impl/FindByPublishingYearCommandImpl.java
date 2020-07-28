@@ -17,6 +17,7 @@ public class FindByPublishingYearCommandImpl implements Command {
         Map<String, Object> response = new HashMap<>();
         BookStorageService bookStorageService = new BookStorageServiceImpl();
         List<CustomBook> neededBooks = bookStorageService.findByPublishingYear((int) parameters.get(ParameterType.PUBLISHING_YEAR));
+        response.put(ResponseType.STATUS, ResponseType.STATUS_SUCCESS);
         response.put(ResponseType.RESULT, neededBooks);
         return response;
     }

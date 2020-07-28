@@ -2,24 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b011f75b-ca2e-42b0-b090-9b498d132427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByPublishingYearCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/BookStorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/BookStorageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/AddBookCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/AddBookCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/EmptyCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/EmptyCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindAllCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindAllCommandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByAuthorCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByAuthorCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByIdCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByIdCommandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByNameCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByNameCommandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByPagesCountCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByPagesCountCommandImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByPublishingYearCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/FindByPublishingYearCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/RemoveBookCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/RemoveBookCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByAuthorCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByAuthorCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByIdCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByIdCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByNameCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByNameCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByPagesCountCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByPagesCountCommandImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByPublishingYearCommandImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/impl/SortByPublishingYearCommandImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/type/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/type/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/type/ParameterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/controller/command/type/ParameterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/exception/CommandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/comparator/AuthorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/comparator/AuthorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/dao/BookListDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/dao/BookListDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/dao/impl/BookListDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/dao/impl/BookListDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/entity/BookStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/entity/BookStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/entity/CustomBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/entity/CustomBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/factory/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/model/factory/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/service/BookStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/service/BookStorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/service/impl/BookStorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/service/impl/BookStorageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/task6/util/IdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/task6/util/IdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/AddBookCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/AddBookCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/EmptyCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/EmptyCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindAllCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindAllCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByAuthorCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByAuthorCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByIdCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByIdCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByNameCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByNameCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByPagesCountCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByPagesCountCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByPublishingYearCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/FindByPublishingYearCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/RemoveBookCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/RemoveBookCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByAuthorCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByAuthorCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByIdCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByIdCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByNameCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByNameCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByPagesCountCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByPagesCountCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByPublishingYearCommandImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/impl/SortByPublishingYearCommandImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/type/ParameterType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/controller/command/type/ParameterType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/exception/CommandException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/comparator/AuthorComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/comparator/AuthorComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/comparator/IdComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/comparator/IdComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/dao/BookListDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/dao/BookListDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/dao/impl/BookListDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/dao/impl/BookListDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/entity/BookStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/entity/BookStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/entity/CustomBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/entity/CustomBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/factory/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/model/factory/DaoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/service/BookStorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/service/BookStorageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/service/impl/BookStorageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/service/impl/BookStorageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/traulko/task6/util/IdGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/traulko/task6/util/IdGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/traulko/task6/controller/BookStorageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/traulko/task6/controller/BookStorageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +64,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -68,43 +101,89 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="test.traulko.task6.controller" />
+      <recent name="test.traulko.task6.service.impl" />
+      <recent name="test.traulko.task6.validator" />
+      <recent name="test.traulko.task6.model.dao.impl" />
+      <recent name="test.traulko.task6.controller.command.impl" />
+      <recent name="test.traulko.task6.controller.command.provider" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.traulko.task6.controller.command.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookStorageControllerTest.processRequestNegativeTest">
-    <configuration name="BookStorageControllerTest.processRequestNegativeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="BookListDaoImplTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EpamTrainingDay6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.traulko.task6.controller.*" />
+          <option name="PATTERN" value="test.traulko.task6.model.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.traulko.task6.controller" />
-      <option name="MAIN_CLASS_NAME" value="test.traulko.task6.controller.BookStorageControllerTest" />
-      <option name="METHOD_NAME" value="processRequestNegativeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="test.traulko.task6.model.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.task6.model.dao.impl.BookListDaoImplTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookStorageControllerTest.processRequestPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EpamTrainingDay6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.traulko.task6.model.dao.impl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EpamTrainingDay6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.traulko.task6.controller.*" />
+          <option name="PATTERN" value="test.traulko.task6.model.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.traulko.task6.controller" />
-      <option name="MAIN_CLASS_NAME" value="test.traulko.task6.controller.BookStorageControllerTest" />
-      <option name="METHOD_NAME" value="processRequestPositiveTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="test.traulko.task6.model.dao.impl" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.traulko.task6.service.impl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EpamTrainingDay6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.task6.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.task6.service.impl" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.traulko.task6.validator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EpamTrainingDay6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.task6.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.task6.validator" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,8 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BookStorageControllerTest.processRequestNegativeTest" />
-        <item itemvalue="TestNG.BookStorageControllerTest.processRequestPositiveTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.BookListDaoImplTest" />
+        <item itemvalue="TestNG.test.traulko.task6.validator" />
+        <item itemvalue="TestNG.test.traulko.task6.service.impl" />
+        <item itemvalue="TestNG.test.traulko.task6.model.dao.impl" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +213,7 @@
       <workItem from="1595155582134" duration="19875000" />
       <workItem from="1595262886859" duration="574000" />
       <workItem from="1595447519473" duration="7657000" />
+      <workItem from="1595886692788" duration="12666000" />
     </task>
     <servers />
   </component>
@@ -154,62 +237,75 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1595161492194" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595455109572">
+    <state x="508" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595895356011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595455109572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595455109572">
+    <state x="508" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1595895356011" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595899840172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595455109572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595455109572">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595899840172" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595899840172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595455109572" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595455109572">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595899840172" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595899840171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595455109572" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595453838227">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595899840171" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595899840172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595453838227" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595453838226">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595899840172" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595899732590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595453838226" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595453838226">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595899732590" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595899732590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595453838226" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595453838226">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595899732590" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595899732589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595453838226" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595899732589" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595899732590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595899732590" />
     <state x="326" y="160" key="caller.chooser.dialog" timestamp="1595453512555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="326" y="160" key="caller.chooser.dialog/0.0.1536.824@0.0.1536.824" timestamp="1595453512555" />
-    <state x="357" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595262911210">
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1595886748077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="357" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595262911210" />
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595451131750">
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595886748077" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595898468159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1595451131750" />
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1595449883647">
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1595898468159" />
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog" timestamp="1595895948037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1595449883647" />
+    <state x="511" y="41" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1595895948037" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1595893526341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1595893526341" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/traulko/task6/service/impl/BookStorageServiceImpl.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/traulko/task6/controller/command/impl/FindByPublishingYearCommandImplTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

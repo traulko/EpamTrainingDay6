@@ -5,7 +5,7 @@ import com.traulko.task6.util.IdGenerator;
 import java.util.*;
 
 public class CustomBook {
-    private String id;
+    private UUID id;
     private String name;
     private List<String> authors;
     private int pagesCount;
@@ -13,8 +13,7 @@ public class CustomBook {
 
     public CustomBook(String name, List<String> authors,
                       int pagesCount, int publishingYear) {
-        IdGenerator idGenerator = new IdGenerator();
-        this.id = idGenerator.generateId();
+        this.id = IdGenerator.generateId();
         this.name = name;
         this.authors = authors;
         this.pagesCount = pagesCount;
@@ -22,13 +21,11 @@ public class CustomBook {
     }
 
     public CustomBook() {
-        IdGenerator idGenerator = new IdGenerator();
-        this.id = idGenerator.generateId();
         this.name = "";
         this.authors = new ArrayList<>();
     }
 
-    public String getId() {
+    public UUID getId() {
         return id;
     }
 
@@ -36,28 +33,28 @@ public class CustomBook {
         return name;
     }
 
-    public List<String> getAuthors() {
-        return Collections.unmodifiableList(authors);
-    }
-
-    public int getPagesCount() {
-        return pagesCount;
-    }
-
-    public int getPublishingYear() {
-        return publishingYear;
-    }
-
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<String> getAuthors() {
+        return Collections.unmodifiableList(authors);
     }
 
     public void setAuthors(List<String> authors) {
         this.authors = authors;
     }
 
+    public int getPagesCount() {
+        return pagesCount;
+    }
+
     public void setPagesCount(int pagesCount) {
         this.pagesCount = pagesCount;
+    }
+
+    public int getPublishingYear() {
+        return publishingYear;
     }
 
     public void setPublishingYear(int publishingYear) {
@@ -66,9 +63,23 @@ public class CustomBook {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+
         CustomBook other = (CustomBook) obj;
+        if (id == null) {
+            if (other.id != null) {
+                return false;
+            }
+        } else {
+            if (!id.equals(other.id)) {
+                return false;
+            }
+        }
         if (name != null ? !name.equals(other.name) : other.name != null) {
             return false;
         }
@@ -81,7 +92,7 @@ public class CustomBook {
         if (publishingYear != other.publishingYear) {
             return false;
         }
-        return id.equals(other.id);
+        return true;
     }
 
     @Override
